@@ -197,10 +197,11 @@ Test Case ID | Test Case Description |
 [SC01-TC04](scenarios/operator/sc01-tc04.md) | Configure and Install a Tanzu Kubernetes Grid Management Cluster |
 
 #### Operator SC02: Install Tanzu Baseline and Integrate with SaaS
+Test Case ID | Test Case Description |
 --- | --- |
 [SC02-TC01](scenarios/operator/sc02-tc01.md) | Install Tanzu Kubernetes Grid Management Cluster |
 [SC02-TC02](scenarios/operator/sc02-tc02.md) | Integrate Management Cluster with Tanzu Mission Control |
-[SC01-TC03](scenarios/operator/sc02-tc03.md) | Validate IDP Integration with the Management Cluster and TMC-Configured Roles |
+[SC02-TC03](scenarios/operator/sc02-tc03.md) | Validate IDP Integration with the Management Cluster and TMC-Configured Roles |
 
 
 #### DevOps SC03: Provision and Manage Kubernetes Workload Clusters
