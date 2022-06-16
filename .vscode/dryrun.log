@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/roberthardt/work2/client/rogers/tanzu-advanced-poc'
+TAG=`git rev-parse --short=8 HEAD`; \
+	docker build --rm -f tanzu-advanced-poc.dockerfile -t tanzu-advanced-poc:$TAG .; \
+	docker tag tanzu-advanced-poc:$TAG tanzu-advanced-poc:latest
+make: Leaving directory `/Users/roberthardt/work2/client/rogers/tanzu-advanced-poc'
+ 
